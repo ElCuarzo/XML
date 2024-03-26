@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RestauranteMenu>
+    <desayuno>
+        <item>
+            <nombre> Caffe con huevos.</nombre>
+            <descripción> Caffe americano, acompañado de tostadas con huevo.</descripción> 
+            <precio>4500$</precio>
+        </item>
+
+        <item>
+            <nombre> Jugo con frutas.</nombre>
+            <descripción> Jugo recien exprimido de fruta a elección, con un yogurth con frutas a elección.</descripción> 
+            <precio> 4500$</precio>
+        </item>
+    </desayuno>
+
+    <Almuerzo>
+        <item>
+            <nombre> Pure con tofu</nombre>
+            <descripción> Pure con verduras salteadas, con tofu frito en aceite de oliva y especias.</descripción> 
+            <precio> 6990$</precio>
+        </item>
+
+        <item>
+            <nombre> Arroz arabe</nombre>
+            <descripción> Arroz al estilo arabe, con bolitas de falafel.</descripción> 
+            <precio> 7390$</precio>
+        </item>
+    </Almuerzo>
+
+    <Postres>
+        <item>
+            <nombre> Banana Split</nombre>
+            <descripción> Helado de 3 sabores con platano y recubierto con crema batida con fruta.</descripción> 
+            <precio>6500$</precio>
+        </item>
+
+        <item>
+            <nombre> Volcan de chocolate</nombre>
+            <descripción> Pastel de chocolate en forma de volcan relleno con chocolate.</descripción>
+            <precio>5700$</precio>
+        </item>
+    </Postres>
+
+</RestauranteMenu>
+
+
+<!-- <display-name> es utilizado para mostrar el nombre de la aplicación web --> 
+<!-- <servlet> un componente que responde las solicitudes HTTP -->
+<!-- <servlet-name> Nombre único que recibe el servlet para ser identificado dentro de la pagina web -->
+<!-- <servlet-class> Especifica la clase Java que implementa el servlet -->
+<!-- <servlet-mapping> Mapea un servlet a un URL especifico, de modo que el servlet pueda responder a las solicitudes que coincidan con ese URL. -->
+<!-- <url-pattern> Define un patrón de URL que se asigna a un servlet específico. -->
+<!-- <welcome-file> Especifica el archivo contenedor de servlets debe devolver como respuesta a una solicitud de directorio raíz de una aplicación.-->
